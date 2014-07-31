@@ -1,0 +1,31 @@
+apply plugin: 'groovy'
+
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+	compile files(fileTree(dir: 'lib', includes: ['*.jar']))
+    compile 'org.codehaus.groovy:groovy-all:2.3.3'
+    testCompile "org.spockframework:spock-core:0.6-groovy-1.8" 
+}
+task runScript (dependsOn: 'libs', type: JavaExec) {
+    //main = 'com.ggames.SampleGame'
+    //classpath = sourceSets.main.runtimeClasspath
+    new GroovyShell().run(file('src/main/groovy/yourscript.groovy')) 
+}
+/*sourceSets {
+   main {
+       java {
+           srcDir 'src/groovy'
+       }
+   }
+
+   test {
+       java {
+           srcDir 'test/groovy'
+       }
+   }
+}*/

@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "test"
+		},
+		{
+			"path": "lib"
+		},
+		{
+			"path": "src"
+		}
+	]
+}

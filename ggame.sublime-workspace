@@ -1,0 +1,662 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"miles"
+			],
+			[
+				"ma",
+				"make"
+			],
+			[
+				"pr",
+				"println"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/raja/Workfolder/project/groovy/samples/WayToLoop.groovy",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/raja/Workfolder/project/groovy/samples/GroovyCar.groovy",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/raja/Workfolder/project/lol_live/lol_notes-image-issue",
+			"settings":
+			{
+				"buffer_size": 1764,
+				"line_ending": "Unix",
+				"name": "#Distinct post types"
+			}
+		},
+		{
+			"contents": "-- phpMyAdmin SQL Dump\n-- version 2.11.11.3\n-- http://www.phpmyadmin.net\n--\n-- Host: 50.63.231.60\n-- Generation Time: Jul 26, 2013 at 02:53 PM\n-- Server version: 5.0.96\n-- PHP Version: 5.1.6\n\nSET SQL_MODE=\"NO_AUTO_VALUE_ON_ZERO\";\n\n--\n-- Database: `lig1234411143763`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Table structure for table `wp_postmeta`\n--\n\nCREATE TABLE `wp_postmeta` (\n  `meta_id` bigint(20) unsigned NOT NULL auto_increment,\n  `post_id` bigint(20) unsigned NOT NULL default '0',\n  `meta_key` varchar(255) default NULL,\n  `meta_value` longtext,\n  PRIMARY KEY  (`meta_id`),\n  KEY `post_id` (`post_id`),\n  KEY `meta_key` (`meta_key`)\n) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13413 ;\n\n--\n-- Dumping data for table `wp_postmeta`\n--\n\nINSERT INTO `wp_postmeta` VALUES(3616, 504, 'fb_fan_page_post_id', '484627324923118_256348421169173');\nINSERT INTO `wp_postmeta` VALUES(3612, 504, 'post_to_facebook_timeline', '0');\nINSERT INTO `wp_postmeta` VALUES(3611, 504, '_edit_lock', '1363462810:1');\nINSERT INTO `wp_postmeta` VALUES(3609, 504, '_thumbnail_id', '505');\nINSERT INTO `wp_postmeta` VALUES(3610, 504, '_edit_last', '1');\nINSERT INTO `wp_postmeta` VALUES(3606, 504, 'invictus_photo_no_slider_alert', '');\nINSERT INTO `wp_postmeta` VALUES(3605, 504, 'invictus_photo_group_no_slider', '');\nINSERT INTO `wp_postmeta` VALUES(3604, 504, 'invictus_photo_slider_nivo_speed', '500');\nINSERT INTO `wp_postmeta` VALUES(3603, 504, 'invictus_photo_slider_nivo_slices', '15');\nINSERT INTO `wp_postmeta` VALUES(3601, 504, 'invictus_photo_slider_nivo_pause', '3000');\nINSERT INTO `wp_postmeta` VALUES(3602, 504, 'invictus_photo_slider_nivo_effect', 'random');\nINSERT INTO `wp_postmeta` VALUES(3600, 504, 'invictus_photo_slider_nivo', '');\nINSERT INTO `wp_postmeta` VALUES(3599, 504, 'invictus_photo_slider_kwicks_default', '0');\nINSERT INTO `wp_postmeta` VALUES(3598, 504, 'invictus_photo_slider_kwicks_sticky', 'true');\nINSERT INTO `wp_postmeta` VALUES(3597, 504, 'invictus_photo_slider_kwicks_duration', '250');\nINSERT INTO `wp_postmeta` VALUES(3596, 504, 'invictus_photo_slider_kwicks_easing', 'linear');\nINSERT INTO `wp_postmeta` VALUES(3595, 504, 'invictus_photo_slider_kwicks_spacing', '6');\nINSERT INTO `wp_postmeta` VALUES(3594, 504, 'invictus_photo_slider_kwicks_min', '47');\nINSERT INTO `wp_postmeta` VALUES(3593, 504, 'invictus_photo_slider_kwicks', '');\nINSERT INTO `wp_postmeta` VALUES(3592, 504, 'invictus_photo_slider_slides_pause', '3000');\nINSERT INTO `wp_postmeta` VALUES(3591, 504, 'invictus_photo_slider_slides_autoplay', 'false');\nINSERT INTO `wp_postmeta` VALUES(3590, 504, 'invictus_photo_slider_slides', '');\nINSERT INTO `wp_postmeta` VALUES(3589, 504, 'invictus_featured_image', 'a:1:{i:0;a:2:{s:5:\"imgID\";s:0:\"\";s:8:\"cropping\";s:1:\"c\";}}');\nINSERT INTO `wp_postmeta` VALUES(3588, 504, 'invictus_photo_slider_select', 'none');\nINSERT INTO `wp_postmeta` VALUES(3587, 504, 'invictus_photo_group_slider', '');\nINSERT INTO `wp_postmeta` VALUES(3586, 504, 'invictus_photo_fullsizeshow_group_close', '');\nINSERT INTO `wp_postmeta` VALUES(3585, 504, 'invictus_show_page_fullsize_url', '');\nINSERT INTO `wp_postmeta` VALUES(3584, 504, 'invictus_photo_fullsizeslideshow_group_close', '');\nINSERT INTO `wp_postmeta` VALUES(3583, 504, 'max_show_page_fullsize_interval', '3500');\nINSERT INTO `wp_postmeta` VALUES(3582, 504, 'max_show_page_fullsize_gallery', '');\nINSERT INTO `wp_postmeta` VALUES(3581, 504, 'invictus_photo_fullsizeslideshow_group', '');\nINSERT INTO `wp_postmeta` VALUES(3580, 504, 'max_show_page_fullsize_type', 'single');\nINSERT INTO `wp_postmeta` VALUES(3579, 504, 'invictus_photo_fullsizeshow_group', '');\nINSERT INTO `wp_postmeta` VALUES(3578, 504, 'max_show_page_fullsize', 'true');\nINSERT INTO `wp_postmeta` VALUES(3577, 504, 'invictus_photo_cropping_direction_value', 'c');\nINSERT INTO `wp_postmeta` VALUES(3576, 504, 'invictus_photo_group_selfhosted_close', '');\nINSERT INTO `wp_postmeta` VALUES(3575, 504, 'invictus_video_autoplay_value', 'false');\nINSERT INTO `wp_postmeta` VALUES(3574, 504, 'invictus_video_fill_value', 'fill');\nINSERT INTO `wp_postmeta` VALUES(3573, 504, 'invictus_video_height_value', '529');\nINSERT INTO `wp_postmeta` VALUES(3572, 504, 'invictus_video_url_poster_value', '');\nINSERT INTO `wp_postmeta` VALUES(3571, 504, 'invictus_video_poster_value', 'featured');\nINSERT INTO `wp_postmeta` VALUES(3570, 504, 'invictus_video_url_ogv_value', '');\nINSERT INTO `wp_postmeta` VALUES(3569, 504, 'invictus_video_url_m4v_value', '');\nINSERT INTO `wp_postmeta` VALUES(3568, 504, 'invictus_photo_group_selfhosted', '');\nINSERT INTO `wp_postmeta` VALUES(3567, 504, 'invictus_photo_group_embeded_close', '');\nINSERT INTO `wp_postmeta` VALUES(3566, 504, 'invictus_video_embeded_value', '');\nINSERT INTO `wp_postmeta` VALUES(3565, 504, 'invictus_photo_group_embeded', '');\nINSERT INTO `wp_postmeta` VALUES(3564, 504, 'invictus_photo_item_type_value', 'none');\n",
+			"settings":
+			{
+				"buffer_size": 4942,
+				"line_ending": "Unix",
+				"name": "-- phpMyAdmin SQL Dump"
+			}
+		},
+		{
+			"file": "/Users/raja/Workfolder/project/groovy/samples/Execute.groovy",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix",
+				"name": "#Using the OS process"
+			}
+		},
+		{
+			"file": "/Users/raja/Workfolder/project/groovy/samples/Easy.groovy",
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "http://photo-seminars.com/Audio/CreativeAudio/Creative%20Thinking.MP3",
+			"settings":
+			{
+				"buffer_size": 69,
+				"line_ending": "Unix",
+				"name": "http://photo-seminars.com/Audio/CreativeAudio/Crea"
+			}
+		},
+		{
+			"file": "/Users/raja/projects/courseera/datascience/README.md",
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/raja/projects/courseera/datascience/HelloWorld.md",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Unix",
+				"name": "## The Markdown File"
+			}
+		},
+		{
+			"contents": "\"Pragma: akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable, akamai-x-get-cache-key, akamai-x-get-extracted-values, akamai-x-get-nonces, akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key, akamai-x-serial-no\"\n\nhttp://www.homedepot.com/hdus/en_US/DTCCOM/HomePage/Categories/Events/Red_White_Blue_2014/Mobile/Images/RWB-2014-2B.jpg\nhttp://www.homedepot.com/hdus/en_US/DTCCOM/HomePage/Categories/Events/Red_White_Blue_2014/Images/RWB-2014-AP4.jpg\nhttp://www.homedepot.com/hdus/en_US/DTCCOM/HomePage/Categories/Events/Red_White_Blue_2014/Images/RWB-2014-TABLET-HERO-A.jpg\nhttp://www.homedepot.com/hdus/en_US/DTCCOM/HomePage/Categories/Events/Red_White_Blue_2014/Mobile/Images/RWB-2014-HERO-A.jpg\nhttp://www.homedepot.com/hdus/en_US/DTCCOM/HomePage/Categories/Events/Red_White_Blue_2014/Images/RWB-2014-HERO-A.jpg ",
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Unix",
+				"name": "\"Pragma: akamai-x-cache-on, akamai-x-cache-remote-"
+			}
+		},
+		{
+			"contents": "Helping build the \"new\" Home Depot!\n\nCurrently accountable for ecommerce and mobile technology at Home Depot.\n\nResults focused technology executive with a track record of delivering tangible benefits across the supply chain at Fortune 500 companies in North America and Europe.\n\nSpecialties: multi-channel retail solutions, ecommerce, digital & mobile technologies, retail store systems, supply chain solutions, enterprise systems integration, IT strategy development & execution, strategic technology acquisitions, technology investment governance, IT operations excellence & cost reduction, right-sourcing & offshore management\nExperience\nThe Home Depot\nVP - Online & Mobile Technology\nThe Home Depot\n2010 – Present (4 years)Greater Atlanta Area\nTarget\nDirector, Target.com\nTarget\n2008 – 2010 (2 years)\nFedEx Office\nManaging Director\nFedEx Office\n2004 – 2008 (4 years)\nDeloitte\nSr Manager\nDeloitte\n1996 – 2004 (8 years)\n\n\nummary\n\nArchitecting, Designing and Developing large scale enterprise IT applications using Java, J2EE technologies. Highly Experienced with IBM suite of products like Websphere Commerce Server, Websphere Process Server and Portal Server.\n\nSpecialties: Java, J2EE, SOA, Websphere Commerce Server, Websphere Process Server and Portal Server, Broadvision, Endeca, Websphere Extreme Scale, Endeca Page Builder\nExperience\nThe Home Depot\nSenior Architect\nThe Home Depot\nFebruary 2013 – Present (1 year 6 months)Greater Atlanta Area\n\nArchitecting, Designing and Developing solutions for several major initiatives / projects on homedepot.com.\nLead Architect responsible for Browse and Search of homedepot.com powered by endeca with different layers of caching.\nLead Architect responsible for mobile web, tablet web and native mobile public apps.\n\n(Open)1 project\n\nThe Home Depot\nOnline Architect\nThe Home Depot\nJuly 2010 – Present (4 years 1 month)\n\nArchitecting solutions for homedepot.com using Websphere Commerce. Working on several key business critical projects/initiatives like Buy Online and Pick up In Store (BOPIS), Websphere Commerce replatform of 7.0 etc.\nSr. Consultant / Architect\nACS\nApril 2008 – July 2010 (2 years 4 months)\n\nDesigning and Developing ACS Enterprise Healthcare MMIS solution for Medicaid product using JAVA / J2EE, IBM Websphere Process Server and Websphere Portal Server technologies.\n\n(Open)8 recommendations, including:\n\n        Rob Andrzejewski\n        Rob Andrzejewski\n        Director, Enterprise Technology\n\n        Ravi was a Lead Developer on my team at The Home Depot. He is very detail oriented, and takes a significant amount of...View\n        Shiboo Varughese\n        Shiboo Varughese\n        Enterprise Architect, Daugherty Business Solutions\n\n        Ravi is a detail oriented and dependent professional who can manage complex scenarios, conflicts and deliver success at...View\n\n    6 more recommendations\n\nThe Home Depot\nIT Architect\nThe Home Depot\nFebruary 2007 – March 2008 (1 year 2 months)\n\nArchitecting and Designinng of eCommece web application using Websphere Commerce, Java and J2EE technologies. Specialized in building Navigation and Search functionality using Endeca technology.\nThe Home Depot\nLead Developer\nThe Home Depot\nMay 2005 – January 2007 (1 year 9 months)\n\nDesigninng, Developing and Leading the implementation of eCommece web application using Websphere Commerce, Java and J2EE technologies. Specialized in designing and implementing Navigation and Search functionality using Endeca technology.\n\n• Senior IT Architect and Web Application Developer.\n• 15+ years of web development experience.\n• Highly respected technical lead and mentor.\n• Strong problem-solving skills.\n• Demonstrated ability to quickly learn new tools and technologies.\n\n• Certified Information Systems Security Professional (CISSP)\n• Sun Certified Web Component Developer (SCWCD)\n• Sun Certified Java Programmer (SCJP)\n\n• Received the Home Depot Executive Homer Award in 2011, 2012, 2013 and 2014.\n• Received Wal-Mart’s Don Soderquist Associates’ Choice Award in 2006.\n\nSpecialties:\n\n• Languages: Java, C, with some C++, JavaScript, Objective C, Perl, PHP, Python\n\n• Architecture Styles, Frameworks and Tools: Ant, CVS, Design Patterns, Eclipse, Hibernate, JEE (EJB, JSP, servlets), JUnit, SOA, UML, Xcode\n\n• Application Servers: WebSphere, Tomcat\n\n• Relational Databases: Informix, MS SQL Server, Teradata, with some DB2, MySQL, Oracle, MongoDB\n\n• Operating Systems: Unix (HP-UX and AIX), Windows Server, CentOS Linux, MacOS, iOS\n\n• E-Commerce Platforms: WebSphere Commerce, Endeca, ATG\nExperience\nThe Home Depot\nSenior IT Architect, Homedepot.com\nThe Home Depot\nFebruary 2013 – Present (1 year 6 months)Atlanta, Georgia\n\n• Technical leader for one of the fastest growing e-commerce retailers with over $2B in annual sales.\n• Designed and implemented the latest step in The Home Depot's Interconnected Retail strategy: Buy Online Ship to Store (BOSS).\n• Currently integrating Homedepot.com with the new enterprise Customer Order Management system with the goal of providing true multi-channel buy anywhere and fulfill from anywhere capability.\n• Updating Homedepot.com My Account to give online customers the ability to view and interact with any Home Depot transaction. Features include eReceipts, real-time shipment status, viewing and scheduling installations or deliveries and communicating with installers and delivery agents.\n• Re-architecting Homedepot.com from a single monolithic application to a responsive design frontend with a REST API-based backend.\n• Leading the Homedepot.com Design Review Board to ensure systems meet THD standards and best practices for design, maintainability, security, operability and performance.\n• Primary technologies: WebSphere Commerce, Endeca Search, Tomcat, Java, DB2 UDB, AIX.\nThe Home Depot\nIT Architect, Homedepot.com\nThe Home Depot\nFebruary 2010 – February 2013 (3 years 1 month)Atlanta, Georgia\n\n• Architected highly localized and scalable multi-channel solutions including Buy Online Pickup In Store (BOPIS).\n• Designed and implemented a configurable framework to eliminate Cross-site scripting (XSS) vulnerabilities.\n• Promoted web application security, code quality and improved performance through code reviews and introduction of tools such as Findbugs and Dynatrace.\n• Primary technologies: WebSphere Commerce, Endeca Search, Tomcat, Java, DB2, AIX.\nWal-Mart Stores, Inc.\nSolutions Architect, Global E-Commerce\nWal-Mart Stores, Inc.\nJune 2008 – February 2010 (1 year 9 months)Bentonville, Arkansas\n\n• Participated in the design and implementation of a multi-tenant e-commerce platform (MTEP).\n• Deployed MTEP for a major UK grocery web site, groceries.asda.com.\n• Technical leader responsible for integration with Wal-Mart enterprise systems (including product information, inventory, payment and fulfillment) and the migration of data from legacy systems.\n• Reviewed technical designs.\n• Consulted on issues involving infrastructure, security, testing, and performance.\n• Managed relationships with offshore development and QA teams and internal Wal-Mart teams.\n• Primary technologies: ATG Commerce, Endeca Search, WebSphere Application Server, Java, Oracle, Informix, Solaris, AIX.\n\nSpecialties: Nginx, Varnish, Apache, Puppet, Tomcat, Websphere Application Server 7, IBM Websphere Commerce, Endeca, Web applications, Dynatrace, performance tuning\nExperience\nIt Architect\nThe Home Depot\nOctober 2009 – Present (4 years 10 months)Austin, TX\n\nWeb Engineer for Homedepot.com. SME for Endeca operation and administration. Comprehensive engineering and infrastructure design for IHS and WAS/WCS systems. Technical lead on numerous projects and initiatives.\nCS STARS\nSenior Systems Administrator\nCS STARS\nJune 2003 – October 2009 (6 years 5 months)\n\nSenior Systems Admin for ASP and Internal Operations. Manage approx 70 servers in Amarillo Datacenter. Project lead for VMware virtualization project. Administer 2 ASP web applications running on IBM Websphere.\n\n(Open)1 recommendation\n\n        Bounmy Luangraj\n        Bounmy Luangraj\n        Senior IT Manager at General Motors\n\n        J. is a very quick study. I was rarely worried if J. was able to overcome any technical challenge that I gave him. He is passionate about his work and it shows in his methodical actions which delivers results. J has the correct attitude and is a...View\n\n\n\n oey Guerra\n\nSoftware Engineer\n\n    Dallas/Fort Worth Area\n    Internet\n\nCurrent	\n\n    The Home Depot\n\nPrevious	\n\n    GameStop,\n    True.com,\n    Corprasoft, Inc.\n\nEducation	\n\n    The University of Texas at Austin\n\n259connections\nConnect\nSend Joey InMail\n\n        www.linkedin.com/in/joeyguerra\n\nContact Info\nBackground\nSummary\n\nPractical, no nonsense leader. I believe in incrementally innovating. I specialize in facilitating interdisciplinary team collaboration (i.e DevOps, Agile values and principles), aligning solutions with business, and finding practical solutions.\nExperience\nDevelopment Manager\nThe Home Depot\nJuly 2013 – Present (1 year 1 month)Irving, Texas\n\nShaping an Agile delivery team for homedepot.com.\nDevelopment Manager for Game Informer\nGameStop\nAugust 2012 – July 2013 (1 year)Grapevine, Tx\n\nBuilt a new Scrum team. Provide leadership, direct, plan and guide all team activities. Lead and participate in the full lifecycle of the system implementation that supports the Game Informer business and it's integration into GameStop's overall strategy and system. Ensure overall documentation of the system and processes. Guide the team to follow Agile values and principles. Execute a communication strategy with management that supports educated business decisions.\n\nHighlights:\n* Created a consistent, dependable and repeatable deployment strategy for all applications (e.g. 1 click deployment to every environment)\n* Designed and implemented a messaging architecture\n* Messaging architecture enabled us to isolate and control the scope of applications built by 3rd party vendors\n* Participated in building a DevOps model and relationship amongst Ops, QA, and DBAs\n* Successfully replaced the aging subscription management system\n* Go live of the new subscription management system was uneventful\nGameStop\nLead Software Engineer\nGameStop\nSeptember 2010 – August 2012 (2 years)Grapevine, Tx\n\nLead the technology development for Game Informer, the worlds #1 video gaming magazine.\n\nProvide technical leadership in the analysis, design, development, deployment and delivery of technology for Game Informer's business and it's integration into the GameStop enterprise. Ensured the delivery of technology to support business needs.\n\nHighlights:\n* Subscriber authentication via the Community Server web site and the digital magazine provider\n* On board and integrate Mag+ (www.magplus.com) as the tablet app vendor\n* Design and plan replacing the aging subscription management system\nSoftware Engineer\nTrue.com\nNovember 2006 – April 2009 (2 years 6 months)\n\nBuilt the video chat system, first iOS app, and responsible for adding product features to true.com, an internet dating site (1.5 million unique visits per day).\n\n(Open)2 recommendations\n\n        Josh Eason\n        Josh Eason\n        VP Product & Marketing\n\n        Many projects in my career would have been much more productive -- and much less stressful -- if Joey had been on every...View\n        Steve Koziatek\n        Steve Koziatek\n        Customer QA Lead at Datacert\n\n        I really enjoyed working with Joey because of his quick wit and innovative development style. He came up with solutions that...View\n\nLead Product Developer\nCorprasoft, Inc.\nJune 2005 – November 2006 (1 year 6 months)\n\nDesigned and built Legal Discovery, the ad hoc reporting application for the flagship product (Corprasoft Legal Desktop), used in Fortune 500 legal departments for case management. In addition to professional services engagements, providing support and customizations.\n\n(Open)1 recommendation\n\n        Guy Saenger\n        Guy Saenger\n        Avacata\n\n        Joey was a very gifted Senior Developer at Corprasoft and understood how to solve complex technical problems with cutting edge and creative solutions. Joey was certainly one of the best developers in my engineering group.View\n        \n\nSummary\n\nSkilled Technical architect with 19 years of experience involved in full software development life cycle in a multi-million dollar, multi-tier enterprise system launches in team-based environments.\n\nBusiness Analysis, End to End Solutions, Architecture and Design\n\nExtremely focused customer-centric, resourceful, good analytical skills and have high degree of Integrity.\n\nAbility to solve challenging business problems with innovative enterprise solutions.\n\nProven abilities to leverage the hybrid delivery model, comprising a perfect mix of onshore and offshore developers to take the project from start to finish.\n\nSolid understanding of business drivers, application development, ecommerce applications, web development, application and enterprise architectures, application integration, SOA, unstated and implied requirements, agile software delivery fundamentals, architecture modeling, systems consolidation, web services..\n\nCross-functional Team Leadership\nExperience\nThe Home Depot\neCommerce Architect - Online Technology\nThe Home Depot\nOctober 2013 – Present (10 months)Dallas/Fort Worth Area\nTravelocity\nPrincipal Architect\nTravelocity\nJuly 2012 – October 2013 (1 year 4 months)Southlake, Texas\n\n• Designed and implemented a messaging framework to provide synchronous and asynchronous communications for external partners based on SOA architecture. This framework was built to support high volume, low latency transactions to scale and handle a peak load of 300 transactions per second and process around 5 M transactions per day on an average with an average SLA of 800ms.\n• Designed and developed Web Services for partners to push availability, rates, inventories and content using industry standard OTA (Open Travel Alliance) specifications.\n• Collaborated with internal and external stakeholders to plan, estimate, schedule and deliver project artifacts.\n• Worked with suppliers (major hotel chains) on understanding business requirements and implemented Travelocity connect portal for suppliers.\n• Designed a service oriented connectivity framework based on a push/pull model to acquire hotel content from external suppliers via HTTP(S), FTP/SFTP, SOAP/REST.\n• Conducting code reviews, propose design alternatives and recommend industry wide best practices\n• Responsible for creating a technical roadmap for the supply acquisition portfolio to efficiently get hotel availabilities, rates, inventories and content from external suppliers.\n• Responsible for developing high level and low level design artifacts.\n• Designed and developed a dashboard for real-time application monitoring & business reporting using Splunk.\n• Coordination with the Tech Ops team to plan the application server architecture, hardware configuration and storage layout to support the non-functional requirements of the system like, throughput, scalability, security, availability.\nVerizon\nSenior Technical Architect\nVerizon\nFebruary 2002 – July 2012 (10 years 6 months)Irving, Texas\n\n• Architected, designed, and implemented new bill format distributed system with SOA architecture that handles 10M transactions and 1.5 M bill invoices per day. In addition, were able to retire seven legacy mainframe applications by consolidating in to this new system with savings of $20M annually.\n• Architected, designed, and implemented the migration of CORBA based distributed application to a 3-tier web based client server architecture.\n• Designed and implemented the security framework for user authentication and authorization across the whole extranet application.\n• Architected the Customer Care tool on a J2EE platform to support around 20,000 account reps from East and West region to manage customer’s ordering and billing inquiries work requests in a timely manner. System was able to scale well within the given SLA of 1.5 seconds to get the response back to the customer.\n• Implemented an asynchronous, secured and a scalable communications framework as a reusable service for more than 80,000 external clients to connect to Verizon systems for message exchanges.\n• Business trip to our offshore center in Hyderabad, India to developed and implement an onshore-offshore software delivery model to increase the value created for the clients, speed up time to market and reduce project costs.\n• Implemented Single Sign On across Intranet and extranet websites to consolidate web login services and have a seamless user experience.\n• Business case planning and analysis for all Verizon wholesale (Local and Access) IT ordering systems.\n• Communication and coordination with business partners for obtaining requirements for various initiatives.\n• Coordinate with testing teams for reviewing test strategy / test cases, analyzing trouble tickets and providing timely resolution.\n\n(Open)7 recommendations, including:\n\n        Anton Margoline\n        Anton Margoline\n        J2EE & Web Applications Developer | SCJA\n\n        While working with Tushar at Verizon, I found him very efficient with tackling difficult design solutions while being very...View\n        Juan Arias, PhD, MBA\n        Juan Arias, PhD, MBA\n        CTO/VP of Engineering at Zenith Technology Solutions\n\n        Tushar is an extremely skilled person. He always goes the extra mile to get the job done. He is a very quick learner and can...View\n\n    5 more recommendations\n\nAdea Solutions\nProgrammer Analyst\nAdea Solutions\n2001 – 2004 (3 years)\n\n• System architecture and design for creation and publication of core ordering rules that are used by telecommunications companies to do business with Verizon.\n• Designed and Implemented real-time event based reusable modules in Java for generating reports for the business rules in PDF and RTF formats using iText library.\n• Designed and implemented a cross-browser & cross-platform DHTML Javascript tree component with Rich API and Drag and Drop capabilities.\n• Writing Systems Requirement Specification (SRS), Functional Requirements Design Documents (FRD's) and technical specifications.\n• Manage relationships with stakeholders for variety of project initiatives.\n• Post production issue analysis and problem resolution.\n• Utilized Extreme Programming methodology for development process. Implemented engineering practices like TDD for quality improvement.\n• Developed environment independent System V Packaging Scripts for packaging the whole application and installing on all the test, integration and production servers\n• Developed complex SQL Queries, Stored Procedures, Triggers and DB Packages in Oracle.\n• Performance Analysis – Integrated JProfiler with the application to interpret the usage of system resources and to understand the behavior of the system in terms of Heap Size, Garbage Collection, Memory, CPU Profiling, Threads etc.       ",
+			"settings":
+			{
+				"buffer_size": 18990,
+				"line_ending": "Unix",
+				"name": "Helping build the \"new\" Home Depot!"
+			}
+		},
+		{
+			"file": "/Users/raja/projects/samples/src/java/com/utils/functions/Ackerman.java",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Unix",
+				"name": "package com.utils.functions;"
+			}
+		},
+		{
+			"contents": "/Users/username/Library/Caches/Firefox/",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix",
+				"name": "/Users/username/Library/Caches/Firefox/"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/groovy.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/raja/Raja/Profile/RMN/rmn-notes",
+		"/Users/raja/Workfolder/project/groovy/samples/ExceptionHandling.groovy"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/raja/Workfolder/project/groovy/samples/WayToLoop.groovy",
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Groovy/Groovy.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/raja/Workfolder/project/groovy/samples/GroovyCar.groovy",
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Groovy/Groovy.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/raja/Workfolder/project/lol_live/lol_notes-image-issue",
+					"settings":
+					{
+						"buffer_size": 1764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1554,
+								1554
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#Distinct post types",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 4942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4942,
+								4942
+							]
+						],
+						"settings":
+						{
+							"auto_name": "-- phpMyAdmin SQL Dump",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/raja/Workfolder/project/groovy/samples/Execute.groovy",
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#Using the OS process",
+							"syntax": "Packages/Groovy/Groovy.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/raja/Workfolder/project/groovy/samples/Easy.groovy",
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Groovy/Groovy.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 69,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"auto_name": "http://photo-seminars.com/Audio/CreativeAudio/Crea",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/raja/projects/courseera/datascience/README.md",
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/raja/projects/courseera/datascience/HelloWorld.md",
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"auto_name": "## The Markdown File",
+							"syntax": "Packages/Markdown/MultiMarkdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"Pragma: akamai-x-cache-on, akamai-x-cache-remote-",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"settings":
+					{
+						"buffer_size": 18990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18983,
+								18983
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Helping build the \"new\" Home Depot!",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6776.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/raja/projects/samples/src/java/com/utils/functions/Ackerman.java",
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package com.utils.functions;",
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/Users/username/Library/Caches/Firefox/",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 286.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wa",
+				"/Users/raja/Workfolder/project/groovy/samples/WayToLoop.groovy"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
